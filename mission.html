@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission - EcoRevive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-active {
+            color: #047857; /* text-green-700 */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center text-2xl font-bold text-green-700">
+                <!-- SVG Leaf Logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="services.html" class="text-gray-600 hover:text-green-700 transition duration-300">Services</a>
+                <a href="mission.html" class="nav-active transition duration-300">Our Mission</a>
+                <a href="impact.html" class="text-gray-600 hover:text-green-700 transition duration-300">Impact</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-700 transition duration-300">Contact</a>
+            </nav>
+            <a href="contact.html" class="hidden md:inline-block bg-green-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+             <a href="services.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Services</a>
+             <a href="mission.html" class="block nav-active">Our Mission</a>
+             <a href="impact.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Impact</a>
+             <a href="contact.html" class="block bg-green-600 text-white text-center mt-2 px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-cover bg-center text-white py-28" style="background-image: url('https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold">A Greener Future for Every Indian Home</h1>
+                <p class="text-lg text-gray-200 mt-4 max-w-3xl mx-auto">EcoRevive was founded on a simple belief: that a beautiful, modern home can also be a healthy, sustainable one. We are dedicated to making green renovation an accessible and rewarding choice for all.</p>
+            </div>
+        </section>
+
+        <!-- Our Story Section -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A diverse team of designers and engineers collaborating on a green building project." class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-green-800 mb-4">Our Journey</h2>
+                        <p class="text-gray-600 mb-4">EcoRevive was born from a simple yet powerful idea in Nashik: that a beautiful home and a healthy planet should not be mutually exclusive. We noticed that many homeowners wanted to make eco-conscious choices, but felt blocked by high costs, complexity, and a lack of trusted experts.</p>
+                        <p class="text-gray-600">Driven to solve this, we brought together a team of passionate designers, engineers, and craftspeople. Our shared goal is to make green renovation a seamless and rewarding experience. We focus on tangible results—from sourcing innovative recycled materials to installing energy-saving systems that genuinely lower your bills and improve your well-being.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Our Core Values Section -->
+        <section class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-green-800">Our Core Values</h2>
+                    <p class="text-lg text-gray-600 mt-2">These principles guide every decision we make and every project we undertake.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Value 1: Sustainability First -->
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="flex justify-center items-center mb-4">
+                             <svg class="w-12 h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Sustainability First</h3>
+                        <p class="text-gray-600">Every material we choose and process we use is evaluated for its environmental impact.</p>
+                    </div>
+                     <!-- Value 2: Customer Empowerment -->
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="flex justify-center items-center mb-4">
+                            <svg class="w-12 h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Customer Empowerment</h3>
+                        <p class="text-gray-600">We believe in educating our clients, providing transparent choices, and making them part of the journey.</p>
+                    </div>
+                     <!-- Value 3: Quality Craftsmanship -->
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                         <div class="flex justify-center items-center mb-4">
+                            <svg class="w-12 h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.474-4.474c-.048-.58-.188-1.193-.343-1.743m-8.468 9.19a4.5 4.5 0 01-1.141-6.295" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Quality Craftsmanship</h3>
+                        <p class="text-gray-600">Sustainable doesn't mean compromise. We deliver high-quality finishes that are built to last.</p>
+                    </div>
+                     <!-- Value 4: Local Community -->
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="flex justify-center items-center mb-4">
+                            <svg class="w-12 h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m-3-1l-3-1m-3 1l-3 1m-3-1l3 1m0-3.354l-3-1.091" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Local Community</h3>
+                        <p class="text-gray-600">We prioritize local materials and craftsmen, supporting the local economy and reducing our carbon footprint.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-green-700 text-white py-16">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Ready to Reimagine Your Home?</h2>
+                <p class="text-green-200 text-lg mb-8 max-w-2xl mx-auto">Let's work together to create a space that reflects your values and enhances your well-being. Explore our services to begin.</p>
+                <a href="services.html" class="bg-white text-green-700 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition duration-300 shadow-lg">View Our Services</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+             <a href="index.html" class="flex items-center justify-center text-2xl font-bold text-white mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <p class="text-gray-400">&copy; 2025 EcoRevive – Green Renovation | Mumbai, Maharashtra</p>
+            <p class="text-gray-400 mt-1">contact@ecorevive.in</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

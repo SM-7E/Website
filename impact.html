@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Impact - EcoRevive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-active {
+            color: #047857; /* text-green-700 */
+            font-weight: 600;
+        }
+        .impact-icon {
+            width: 4rem;
+            height: 4rem;
+            margin: 0 auto 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center text-2xl font-bold text-green-700">
+                <!-- SVG Leaf Logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="services.html" class="text-gray-600 hover:text-green-700 transition duration-300">Services</a>
+                <a href="mission.html" class="text-gray-600 hover:text-green-700 transition duration-300">Our Mission</a>
+                <a href="impact.html" class="nav-active transition duration-300">Impact</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-700 transition duration-300">Contact</a>
+            </nav>
+            <a href="contact.html" class="hidden md:inline-block bg-green-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+             <a href="services.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Services</a>
+             <a href="mission.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Our Mission</a>
+             <a href="impact.html" class="block nav-active">Impact</a>
+             <a href="contact.html" class="block bg-green-600 text-white text-center mt-2 px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Impact Hero Section -->
+        <section class="relative bg-cover bg-center text-white py-28" style="background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+            <div class="absolute inset-0 bg-green-900 opacity-60"></div>
+            <div class="relative container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold">Making a Tangible Difference</h1>
+                <p class="text-lg text-gray-200 mt-4 max-w-3xl mx-auto">Our work goes beyond renovation. It's about building a sustainable future, one home at a time. See the positive impact we're creating together.</p>
+            </div>
+        </section>
+
+        <!-- Our Vision for Impact Section -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-green-800">Our Vision for Impact</h2>
+                    <p class="text-lg text-gray-600 mt-2">Every green renovation has the power to create meaningful change.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <!-- Stat 1: Energy Savings -->
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <svg class="impact-icon text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                        </svg>
+                        <p class="text-xl font-semibold text-gray-700 mt-2">Energy Savings</p>
+                        <p class="text-gray-500 mt-1">A typical home can cut its electricity consumption by up to 40% with solar panels and efficient systems.</p>
+                    </div>
+                    <!-- Stat 2: Lower Carbon Footprint -->
+                     <div class="bg-white p-8 rounded-lg shadow-md">
+                        <svg class="impact-icon text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        </svg>
+                        <p class="text-xl font-semibold text-gray-700 mt-2">Lower Carbon Footprint</p>
+                         <p class="text-gray-500 mt-1">Each project reduces household CO2 emissions, contributing to cleaner air in our communities.</p>
+                    </div>
+                    <!-- Stat 3: Water Conservation -->
+                     <div class="bg-white p-8 rounded-lg shadow-md">
+                         <svg class="impact-icon text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        </svg>
+                        <p class="text-xl font-semibold text-gray-700 mt-2">Water Conservation</p>
+                         <p class="text-gray-500 mt-1">A rainwater harvesting system can save an average family thousands of litres of water annually.</p>
+                    </div>
+                    <!-- Stat 4: Healthier Homes -->
+                     <div class="bg-white p-8 rounded-lg shadow-md">
+                         <svg class="impact-icon text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m-3-1l-3-1m-3 1l-3 1m-3-1l3 1m0-3.354l-3-1.091" />
+                        </svg>
+                        <p class="text-xl font-semibold text-gray-700 mt-2">Healthier Homes</p>
+                         <p class="text-gray-500 mt-1">Using non-toxic materials improves indoor air quality for a safer family environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Client Spotlight Section -->
+        <section class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                         <img src="https://images.pexels.com/photos/4246233/pexels-photo-4246233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A happy family in their modern, eco-friendly living room" class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-green-800 mb-4">Pilot Project Spotlight: The Sharma Family</h2>
+                        <blockquote class="text-xl italic text-gray-600 border-l-4 border-green-500 pl-6">
+                            "EcoRevive didn't just renovate our house; they transformed our lifestyle. Our electricity bills have been cut in half, and the air inside feels so much cleaner. We're proud to live in a home that's beautiful and good for the environment."
+                        </blockquote>
+                        <p class="text-right text-gray-800 font-semibold mt-4">- Anjali & Rohan Sharma, Pune</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-green-700 text-white py-16">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Be a Part of the Change</h2>
+                <p class="text-green-200 text-lg mb-8 max-w-2xl mx-auto">Your home can be a powerful force for good. Join the growing community of homeowners making a positive impact on the planet.</p>
+                <a href="contact.html" class="bg-white text-green-700 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition duration-300 shadow-lg">Start Your Project Today</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+             <a href="index.html" class="flex items-center justify-center text-2xl font-bold text-white mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <p class="text-gray-400">&copy; 2025 EcoRevive – Green Renovation | Mumbai , Maharashtra</p>
+            <p class="text-gray-400 mt-1">contact@ecorevive.in</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

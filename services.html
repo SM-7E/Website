@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - EcoRevive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-active {
+            color: #047857; /* text-green-700 */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center text-2xl font-bold text-green-700">
+                <!-- SVG Leaf Logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="services.html" class="nav-active transition duration-300">Services</a>
+                <a href="mission.html" class="text-gray-600 hover:text-green-700 transition duration-300">Our Mission</a>
+                <a href="impact.html" class="text-gray-600 hover:text-green-700 transition duration-300">Impact</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-700 transition duration-300">Contact</a>
+            </nav>
+            <a href="contact.html" class="hidden md:inline-block bg-green-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+             <a href="services.html" class="block nav-active">Services</a>
+             <a href="mission.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Our Mission</a>
+             <a href="impact.html" class="block text-gray-600 hover:text-green-700 transition duration-300">Impact</a>
+             <a href="contact.html" class="block bg-green-600 text-white text-center mt-2 px-5 py-2 rounded-full hover:bg-green-700 transition duration-300 shadow-md">Get a Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Services Hero Section -->
+        <section class="bg-green-600 text-white pt-24 pb-16">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold">Our Sustainable Renovation Services</h1>
+                <p class="text-lg text-green-200 mt-4 max-w-3xl mx-auto">Transform your home into an efficient, healthy, and eco-friendly space with our expert solutions.</p>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    
+                    <!-- Service 1: Solar Panels -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="https://heavendesigns.in/wp-content/uploads/2021/05/science-in-hd-yqej8hq8y2o-unsplash-cropped-1536x864-1.jpg" alt="Workers installing solar panels on a rooftop" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4">Rooftop Solar Panel Installation</h3>
+                            <p class="text-gray-600 mb-6">Harness the power of the sun to achieve energy independence. Our team handles everything from consultation to installation, helping you take advantage of government subsidies to significantly reduce your electricity bills and carbon footprint.</p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Drastically lower your monthly electricity costs.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Increase your property value with a future-proof investment.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Benefit from government subsidies and incentives.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Reduce reliance on the grid and power your home cleanly.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Smart Lighting -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="https://www.ledexpothailand.com/wp-content/uploads/2024/02/Untitled-design.jpg" alt="A home interior with smart, energy-efficient LED lighting" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4">Smart LED Lighting & Energy Audits</h3>
+                            <p class="text-gray-600 mb-6">Upgrade to intelligent, energy-saving LED lighting solutions. We conduct comprehensive energy audits to identify wastage and recommend smart systems that reduce consumption by up to 80% while enhancing your home's ambiance.</p>
+                             <ul class="space-y-2 text-gray-600">
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Cut your lighting energy consumption significantly.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Control your home's lighting remotely for convenience.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> LEDs have a longer lifespan, reducing replacement costs.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Improve home security with automated lighting.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Eco-Friendly Paints -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="https://www.azocleantech.com/images/Article_Images/ImageForArticle_1899_1731336341473346.jpg" alt="A beautifully painted living room using non-toxic, eco-friendly paint" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4">Eco-Friendly Insulation & Paints</h3>
+                            <p class="text-gray-600 mb-6">Create a healthier indoor environment for your family. We use non-toxic, low-VOC (Volatile Organic Compounds) paints and sustainable insulation materials like recycled denim or cork to improve air quality and maintain comfortable temperatures year-round.</p>
+                             <ul class="space-y-2 text-gray-600">
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Breathe cleaner air with zero harmful emissions.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Better insulation reduces the need for heating and AC.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Reduce noise pollution with superior soundproofing.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Choose from a wide range of beautiful, durable colors.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Water Harvesting -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="https://texaswaternewsroom.org/articles/raven_canyon_rainwater_harvesting_2023_4_1.jpg" alt="A modern rainwater harvesting system integrated into a home's design" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4">Rainwater Harvesting Systems</h3>
+                            <p class="text-gray-600 mb-6">Conserve one of our most precious resources. We design and install efficient rainwater harvesting systems that collect, filter, and store rainwater for non-potable uses like gardening, cleaning, and toilet flushing, reducing your reliance on municipal water.</p>
+                             <ul class="space-y-2 text-gray-600">
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Lower your water bills and conserve a vital resource.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Ensure water availability during shortages.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Promote a healthy garden with natural, untreated water.</li>
+                                <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span> Contribute to a more sustainable local water cycle.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-green-800 mb-4">Ready to Start Your Green Journey?</h2>
+                <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">Every sustainable home starts with a single step. Contact us today for a free, no-obligation consultation to discover how we can transform your space.</p>
+                <a href="contact.html" class="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition duration-300 shadow-lg">Get Your Free Consultation</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+             <a href="index.html" class="flex items-center justify-center text-2xl font-bold text-white mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M5 21c.5 -4.5 2.5 -8 7 -10"></path>
+                   <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"></path>
+                </svg>
+                <span>EcoRevive</span>
+            </a>
+            <p class="text-gray-400">&copy; 2025 EcoRevive – Green Renovation | Mumbai, Maharashtra</p>
+            <p class="text-gray-400 mt-1">contact@ecorevive.in</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+
